@@ -1,4 +1,4 @@
-namespace EFCodeFirst.Repositories;
+namespace EFCodeFirst.Repositories.Abstractions;
 
 public interface IMedicamentRepository
 {

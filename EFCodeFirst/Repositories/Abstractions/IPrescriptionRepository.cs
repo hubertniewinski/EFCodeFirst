@@ -1,6 +1,8 @@
+using EFCodeFirst.Repositories.Models;
+
 namespace EFCodeFirst.Repositories.Abstractions;
 
-public class IPrescriptionRepository
+public interface IPrescriptionRepository
 {
-    
+    Task CreateAsync(Prescription prescription, CancellationToken cancellationToken);
 }
